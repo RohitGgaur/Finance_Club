@@ -3,8 +3,9 @@ import "./App.css";
 import Topbar from "./components/Header/Topbar";
 import Header from "./components/Header/Header";
 import Home from "./components/Home";
-import About from "./components/About";
+ import About from "./components/About";
 import Event from "./components/Event";
+import Team from "./components/Team";
 import Contact from "./components/Contact";
 import {
   BrowserRouter as Router,
@@ -19,7 +20,7 @@ function App() {
     <Topbar />
       <Header />
       
-    <div className="container">
+    <div >
     <Switch>
     <Route path="/Home">
             <Home/>
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/Event">
             <Event />
+          </Route>
+          <Route path="/Team">
+            <Team />
           </Route>
           <Route path="/Contact">
             <Contact />

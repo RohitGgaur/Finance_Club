@@ -5,7 +5,7 @@ const Topbar = () => {
     <>
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"></link>
       <section id="topbar" class="d-flex align-items-center">
-        <div class="container ">
+        <div  style={{background:"red",width:"100%"}}>
           <div class="contact-info d-flex align-items-center">
             <i class="bi bi-envelope-fill">
               <a href="financeclubmmmut@gmail.com">

@@ -36,9 +36,24 @@
   }
   .social-links{
     padding-left: 0;
-  } 
+  }
+  
+  @media screen and (min-width: 480px) {
+    .social-links 
+    {
+      display: block;
+    }
+  }
+
   .bi bi-envelope-fill{
     padding-right: 0;
   }
+  header{
+    width:100;
+  }
+  #navbarSupportedContent{
+margin-left: 18%;
+  }
+
   
   
