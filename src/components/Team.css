@@ -174,3 +174,29 @@ span.small.text-uppercase.text-muted {
   --bs-text-opacity: 1;
   color: rgb(245, 231, 231);
 }
+/*  col-sm-3 mb-5{
+
+} */
+
+/* .image:hover img {
+  transform: scale(2, 2);
+  cursor: pointer
+} */
+ /* .col-xl-3{
+  transition: rotate(45deg);
+}
+.col-xl-3 :hover{
+  transform: rotate(-0.5rem);
+}  */
+.rounded:hover {
+ transition: rotate(45deg);
+}
+/* .gallery-block{
+  
+} */
+.card-hover{
+  transition: all .3s ease-in-out;
+}
+.card-hover:hover{
+  transform: scale(1.1);
+}

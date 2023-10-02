@@ -37,7 +37,7 @@ const Event = () => {
         </div>
 
       </div>
-
+{/* third event */}
       <div className="class3">
           <h4>Back To Pavilion</h4>
           <div class="row my-5">

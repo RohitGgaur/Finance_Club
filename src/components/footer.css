@@ -1,0 +1,38 @@
+.col-lg-3 col-md-6 col-sm-12 my-2 {
+    text-align: right;
+  }
+  footer {
+    background-color: #101522;
+    color: white;
+  }
+  footer a{
+    color: white;
+  }
+  footer a:hover{
+    text-decoration: none;
+  
+    color: #f82249;
+  }
+  .fab {
+    font-size: 26px;
+  }
+  
+  #logo1 {
+    height: 80.156px;
+    width: 80px;
+    margin: 0 15px 10px 0;
+  }
+  
+  #logo2 {
+    height: 80.156px;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .col-lg-3 col-md-6 col-sm-12 my-1 {
+    text-align: left;
+  }
+  
+  .col-lg-3 col-md-6 col-sm-12 my-2 {
+      text-align: right;
+  }
