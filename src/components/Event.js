@@ -1,3 +1,4 @@
+
 import React from 'react'
 import img3 from "./Header/img/quizimg.png"
 import img4 from "./Header/img/portfolio/Event_2_1.jpeg"
@@ -30,7 +31,7 @@ const Event = () => {
               <img src={img5} alt="Online quiz" style={{ height: "100%", width: "56%" }} />
             </div>
             <div class="col-6">
-              <div class="content-heading"><h3>Experience &nbsp </h3><img src="" /></div>
+              <div class="content-heading"><h3>Experience bakchod &nbsp </h3><img src="#" /></div>
               <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
           </div>
@@ -58,5 +59,4 @@ const Event = () => {
    
   )
 }
-
-export default Event
+export default Event;
