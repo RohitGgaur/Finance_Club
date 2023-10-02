@@ -13,7 +13,7 @@ const Event = () => {
   <div class="paragraphs">
   <div class="row">
     <div class="span4">
-      <div class="content-heading"><h3>Experience &nbsp </h3><img src=""/></div>
+      <div class="content-heading"><h3>Experience bakchod &nbsp </h3><img src="#"/></div>
       <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
     </div>
   </div>
