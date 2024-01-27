@@ -28,9 +28,18 @@ const Home = () => {
           <br />
           </div>
           <div className="icons" style={{ marginTop: "10px", }}>
-            <i className="bi bi-instagram" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
-            <i className="bi bi-facebook" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
-            <i className="bi bi-linkedin" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
+          <a href="https://www.instagram.com/financeclubmmmut/" target="_blank" rel="noopener noreferrer">
+  <i className="bi bi-instagram" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
+</a>
+
+<a href="https://www.facebook.com/financeclubmmmut" target="_blank" rel="noopener noreferrer">
+  <i className="bi bi-facebook" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
+</a>
+
+            <a href="https://www.linkedin.com/company/financeclubmmmut/" target="_blank" rel="noopener noreferrer">
+  <i className="bi bi-linkedin" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
+</a>
+
           </div>
           <button
             className='readmore'
