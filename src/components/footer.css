@@ -1,0 +1,70 @@
+
+  
+  #logo1 {
+    height: 80.156px;
+    width: 80px;
+    margin: 0 15px 10px 0;
+  }
+  
+  #logo2 {
+    height: 80.156px;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  .main{
+    background-color: rgba(14, 8, 8, 0.39);
+    margin-top: 20px;
+    height: 10%;
+  }
+  .div3{
+    
+   padding-left: 60%;
+   color:azure;
+  }
+  .line{
+    display: flex;
+  }
+  .head{
+    color: red;
+  }
+  .reserve{
+    text-align: center;
+  }
+   /* .div2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  } */
+  #leftbox {
+    float: left;
+    width: 25%;
+    display: flexbox;
+}
+
+#middlebox {
+    float: left;
+    width: 50%;
+    
+   
+}
+
+#rightbox {
+    float: right;
+    width: 25%;
+   
+}
+
+h1 {
+    
+    text-align: center;
+}
+.copyright{
+  text-align: center;
+}
+
+ 
+ 
+ 
+  
+    

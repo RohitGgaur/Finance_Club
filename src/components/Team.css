@@ -2,6 +2,9 @@
     background: #fff;
     padding: 60px 0;
   }
+
+
+
   .team .member {
     margin-bottom: 20px;
     overflow: hidden;
@@ -174,3 +177,31 @@ span.small.text-uppercase.text-muted {
   --bs-text-opacity: 1;
   color: rgb(245, 231, 231);
 }
+/*  col-sm-3 mb-5{
+
+} */
+
+/* .image:hover img {
+  transform: scale(2, 2);
+  cursor: pointer
+} */
+ /* .col-xl-3{
+  transition: rotate(45deg);
+}
+.col-xl-3 :hover{
+  transform: rotate(-0.5rem);
+}  */
+.rounded:hover {
+ transition: rotate(45deg);
+}
+/* .gallery-block{
+  
+} */
+.card-hover {
+  transition: all .3s ease-in-out;
+  /* box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5); */
+}
+.card-hover:hover{
+  transform: scale(1.1);
+}
+/* ,boxShadow: "0px 0px 40px white" */
