@@ -88,12 +88,14 @@ import Surya0 from "../components/Header/img/Team_member/Alumnis/Surya Singh.jpe
 import Virat0 from "../components/Header/img/Team_member/Alumnis/Virat Singh Tomer.jpg";
 // import ambuj0 from "../components/Header/img/Team_member/Alumnis/Ambuj_Mishra.jpeg";
 
-
-
+// import OwlCarousel from 'react-owl-carousel';
+// import 'owl.carousel/dist/assets/owl.carousel.css';
+// import 'owl.carousel/dist/assets/owl.theme.default.css';
 const Team = () => {
     return (
         <>
-            <div style={{ "background": "#41273A" }}>
+        
+            <div style={{ "background": "rgb(0, 0, 0)" }}>
                 <div class="container1 py-5">
                     <h1 class="text-center " style={{color:"white"}}>Teams Page</h1>
                     <div class="section-title-divider mb-4"></div>
@@ -104,7 +106,7 @@ const Team = () => {
                         <div class="col-lg-4 col-sm-6"><a href=" " class="showSingle session" target="4">Second Year</a></div>
                     </div>
                     <div id="div1" class="targetDiv my-5"
-                        style={{ "background": "#41273A"  }}>
+                        style={{ "background": "rgb(0, 0, 0)"  }}>
 
                         <div class="gallery-block grid-gallery">
                             <h4>Our Main Part</h4>
@@ -169,7 +171,7 @@ const Team = () => {
                     {/* //Secretary */}
 
 
-                    <div id="div2" class="targetDiv my-5" style={{ "background": "#41273A"  }} >
+                    <div id="div2" class="targetDiv my-5" style={{ "background": "rgb(0, 0, 0)"  }} >
 
                         <div class="gallery-block grid-gallery">
                             <h4>Secretarys of Finance club</h4>
@@ -224,7 +226,7 @@ const Team = () => {
 
                     {/* SECOND YEAR  */}
 
-                    <div id="div3" class="targetDiv my-5" style={{ "background": "#41273A"  }}>
+                    <div id="div3" class="targetDiv my-5" style={{ "background": "rgb(0, 0, 0)"  }}>
                         <div class="gallery-block grid-gallery ">
                             <h4>Second year Members</h4>
                             {/* <hr> */}
@@ -610,7 +612,7 @@ const Team = () => {
 
                     {/* THIRD YEAR  */}
 
-                    <div id="div3" class="targetDiv my-5" style={{ "background": "rgb(0,0,33)" }}>
+                    <div id="div3" class="targetDiv my-5" style={{ "background": "rgb(0, 0, 0)" }}>
                         <div class="gallery-block grid-gallery ">
                             <h4>Third year Members</h4>
                             {/* <hr> */}
@@ -868,7 +870,7 @@ const Team = () => {
                     </div>
 
                     {/* FINAL YEAR  */}
-                    <div id="div4" class="targetDiv my-5" style={{ "background": "rgb(0,0,33)" }}>
+                    <div id="div4" class="targetDiv my-5" style={{ "background": "rgb(0, 0, 0)" }}>
                         <div class="gallery-block grid-gallery">
                             <h4>Final Year Member</h4>
                             {/* <hr> */}
@@ -1079,7 +1081,7 @@ const Team = () => {
 
         {/* Alumni List */}
 
-                    <div id="div5" class="targetDiv my-5" style={{ "background": "rgb(0,0,33)" }}>
+                    <div id="div5" class="targetDiv my-5" style={{ "background": "rgb(0, 0, 0)" }}>
                         <div class="gallery-block grid-gallery ">
                             <h4> Our Alumni</h4>
                             {/* <hr> */}
@@ -1273,7 +1275,7 @@ const Team = () => {
 
                
              </div>
-            
+
         </>
     )
 }

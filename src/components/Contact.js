@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-     <section class="contact" id="contact" style={{background:"#3327e9"}}>
+     <section class="contact" id="contact" style={{background:"rgb(0, 0, 0)"}}>
     <h2 class="text-center my-5">Contact Me!</h2>
     <form action="#">
         <div class="input-box">

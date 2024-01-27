@@ -27,7 +27,7 @@
     color: white;
     background: transparent;
     border-radius: .6rem;
-    border: .2rem solid black;
+    border: .2rem solid rgb(243, 239, 239);
 }
 .contact form .input-box .input-field input::placeholder,
 .contact form .textarea-field textarea::placeholder{

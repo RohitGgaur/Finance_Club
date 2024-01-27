@@ -1,18 +1,22 @@
 .column{
-    float: left;
+    /* float: left; */
     width: 30%;
     padding: 10px;
     height: 350px; 
-   margin-left: 160px;
+   margin: 90px;
    border-radius: 19px;
    background-color: blanchedalmond;
-   box-shadow: 10px 10px 25px  black;
+   box-shadow: 10px 10px 25px  rgb(255, 241, 241);
    transition: all .3s ease-in-out;
   
   }
   .column:hover{
     transform: scale(1.1);
   }
-  .bg{
-    background-color: rgb(202, 182, 156);
+  .backg{
+    background-color: rgb(0, 0, 0);
+    
+  }
+  .About{
+    height:550px;
   }

@@ -1,16 +1,20 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+
+
+
   .box3{
-    height: 88vh;
+    height: 86vh;
     width: 100%;
     animation: neeraj 21s ease-in-out infinite;
     position: relative;
-    ;
+    
   }
   .mainbox{
-    background-color: #002722;
+    background-color:rgb(0, 0, 0);
     color: white;
   }
 .maintext{
@@ -27,14 +31,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0px 3px 0px #b2a98f,
-    0px 14px 10px rgba(0,0,0,0.15),
-    0px 24px 2px rgba(0,0,0,0.1),
-    0px 24px 30px rgba(0,0,0,0.1);
+    
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 20px;
   font-style: normal;
+  }
+  .content1{
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 24px 30px rgba(0,0,0,0.1);
   }
   .x{
     text-shadow: 0px 3px 0px #fdfcf9,
@@ -43,7 +50,7 @@
     0px 24px 30px rgba(0,0,0,0.1);
   }
 
-  .container {
+  .contain {
     display: flex;
     align-items: center;
     margin-left: 5px;
@@ -65,3 +72,66 @@
    
   }
   
+
+  .content1 span h4{
+    text-shadow: none;
+    color: white;
+    font-size: 48px;
+    
+  }
+
+  .title
+  {
+    color: white;
+    font-size: 60px;
+    text-shadow: none;
+    font-weight: 800;
+  }
+
+  .subtopic
+  {
+    color: white;
+    text-shadow: none;
+    font-size: 16px;
+  }
+
+  .readmore
+  {
+    margin-top: 20px;
+    width: 200px;
+    background-color:#8A164F ;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+
+
+
+  }
+
+  .box3{
+    animation: bg infinite ease-in-out 10s;
+  }
+
+  @keyframes 
+  bg {
+
+    0%{
+      background:url("../components/Header/img/blackBg1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    50%{
+      background:url("../components/Header/img/blackBg2.png");
+      background-repeat: no-repeat;
+
+      background-size: cover;
+    }
+    100%{
+      background:url("../components/Header/img/blackBg1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }

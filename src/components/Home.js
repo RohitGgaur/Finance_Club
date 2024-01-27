@@ -1,50 +1,46 @@
 import React from 'react';
 import './Home.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Correct import statement for Bootstrap icons
-import HeaderImage from '../components/Header/img/home1.jpeg'; // Correct import statement for the image
+import 'bootstrap-icons/font/bootstrap-icons.css'; 
+// import HeaderImage from '../components/Header/img/home1.jpeg'; 
 import img1 from "../components/Header/img/img6.png"
 import img2 from "../components/Header/img/bitcoin.jpeg"
+import img3 from "../components/Header/img/blackBg1.png"
 const Home = () => {
   return (
     <>
-      <div className='box3' style={{ backgroundImage: `url(${img1})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundColor: "#41273A" }}>
+      <div className='box3' style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundColor: "black"
+    
+    }}>
 
-        <marquee className="x" style={{ color: 'green' }}>
+        {/* <marquee className="x" style={{ color: 'green' }}>
           The main objective of our Society is to improve financial skills
-        </marquee>
+        </marquee> */}
 
         <div className="text-center1">
-          <span style={{ color: 'green' }}>
+          <div className="content1">
+          <span >
             <h4 >Welcome</h4>
           </span>
-          <span style={{ color: "yellow" }}>
-            <h1>Our Finance Club</h1>
+          <span className='title'>
+            <p>Our Finance Club</p>
           </span>
-          <b>"Smart Money, Bright Futures."</b>
+          <p className='subtopic'>"Smart Money, Bright Futures."</p>
           <br />
+          </div>
           <div className="icons" style={{ marginTop: "10px", }}>
             <i className="bi bi-instagram" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
             <i className="bi bi-facebook" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
             <i className="bi bi-linkedin" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
-
-
           </div>
           <button
-            style={{
-              background: 'transparent',
-              color: 'red',
-              boxShadow: '10px 10px 40px black',
-              width: '140px',
-              height: '40px',
-              marginTop: '30px',
-            }}
+            className='readmore'
           >
             Read More
           </button>
         </div>
       </div>
-      <div className="mainbox">
-        <div className="container mt-4">
+      <div className="mainbox ">
+        <div className="contain ">
           <img src={img2} alt="Your Image" style={{ width: "70rem", height: "20rem", marginTop: "15px", marginRight: '20px', borderRadius: "10px" }} />
 
           <div className="content">
@@ -58,7 +54,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="container mt-4">
+        <div className="contain mt-4">
           <div className="content mx-5">
             <h3 className='Aboutus'>About Us</h3>
             <div className="para mt-2">

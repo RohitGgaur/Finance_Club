@@ -5,7 +5,7 @@ import Footer from "./footer";
 const About = () => {
   return (
     <>
-    <div className="bg mt-5">
+    <div className="backg">
       <div className="About">
         <div className="row ">
           <div className="column">
