@@ -1,21 +1,4 @@
-.col-lg-3 col-md-6 col-sm-12 my-2 {
-    text-align: right;
-  }
-  footer {
-    background-color: #101522;
-    color: white;
-  }
-  footer a{
-    color: white;
-  }
-  footer a:hover{
-    text-decoration: none;
-  
-    color: #f82249;
-  }
-  .fab {
-    font-size: 26px;
-  }
+
   
   #logo1 {
     height: 80.156px;
@@ -28,11 +11,60 @@
     width: 80px;
     margin-bottom: 10px;
   }
-  
-  .col-lg-3 col-md-6 col-sm-12 my-1 {
-    text-align: left;
+  .main{
+    background-color: rgba(14, 8, 8, 0.39);
+    margin-top: 20px;
+    height: 10%;
   }
-  
-  .col-lg-3 col-md-6 col-sm-12 my-2 {
-      text-align: right;
+  .div3{
+    
+   padding-left: 60%;
+   color:azure;
   }
+  .line{
+    display: flex;
+  }
+  .head{
+    color: red;
+  }
+  .reserve{
+    text-align: center;
+  }
+   /* .div2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  } */
+  #leftbox {
+    float: left;
+    width: 25%;
+    display: flexbox;
+}
+
+#middlebox {
+    float: left;
+    width: 50%;
+    
+   
+}
+
+#rightbox {
+    float: right;
+    width: 25%;
+   
+}
+
+h1 {
+    
+    text-align: center;
+}
+.copyright{
+  text-align: center;
+}
+
+ 
+ 
+ 
+  
+    

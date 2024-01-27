@@ -1,38 +1,16 @@
-/* #header {
-    height: 70px;
-    transition: all 0.5s;
-    z-index: 997;
-    transition: all 0.5s;
-    background: #0f0f0f;
-  }
-  #header .logo h1 {
-    font-size: 28px;
-    margin: 0;
-    padding: 11px 0;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-family: "Poppins", sans-serif;
-  }
-  #header .logo h1 a, #header .logo h1 a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-  #header .logo img {
-    padding: 0;
-    margin: 0;
-    max-height: 40px;
-  }
-  
-  .scrolled-offset {
-    margin-top: 70px;
-  } */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
  .img-1{
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
   }
+  /* @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+  } */
   .container-fluid{
-    background-color: #276d9b;
+    background-color: #fffaf0;
   }
   .social-links{
     padding-left: 0;
@@ -53,6 +31,28 @@
   }
   #navbarSupportedContent{
 margin-left: 18%;
+  }
+  .nav-item{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100px;
+  font-style: bold;
+  
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav-link:hover{
+    color: green;
+    text-decoration: underline;
+  }
+  .logclass{
+    color: aqua;
+    display: flex;
+    align-items: center;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
   }
 
   

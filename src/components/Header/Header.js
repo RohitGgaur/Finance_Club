@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from "react-router-dom"
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 import headerImg from "./img/favicon.jpeg";
 import mmmlogo from "./img/mmmlogo.png"
@@ -8,12 +8,14 @@ import mmmlogo from "./img/mmmlogo.png"
 const Header = () => {
   return (
     <>
-<nav className="navbar navbar-expand-lg bg-body-tertiary" style={{margin:"0%",padding:"0%"}}>
-  <div className="container-fluid">
+<nav className="navbar navbar-expand-lg bg-body-tertiary" style={{ position: 'relative', width: '100%', top: '0', zIndex: '10',margin:"0px",padding:"0px",backgroundAttachment: 'scroll' }}>
+  <div className="container-fluid"style={{backgroundColor:"black"}}>
     <a className="navbar-brand mx-3" href="#">
-    
+    <div className="logclass">
     <img src={headerImg} alt="logo" style={{width:"10%", margin:"1%"}}/>
-      <img src={mmmlogo} alt="logo" style={{width:"10%"}}/>
+      <h3>The Finance Club</h3>
+    </div>
+   
      
       
       </a>
@@ -23,7 +25,7 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link"href="/Home">Home</a>
+          <a className="nav-link" href="/Home">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/About">About</a>

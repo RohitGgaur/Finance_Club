@@ -2,6 +2,9 @@
     background: #fff;
     padding: 60px 0;
   }
+
+
+
   .team .member {
     margin-bottom: 20px;
     overflow: hidden;
@@ -194,9 +197,11 @@ span.small.text-uppercase.text-muted {
 /* .gallery-block{
   
 } */
-.card-hover{
+.card-hover {
   transition: all .3s ease-in-out;
+  /* box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5); */
 }
 .card-hover:hover{
   transform: scale(1.1);
 }
+/* ,boxShadow: "0px 0px 40px white" */

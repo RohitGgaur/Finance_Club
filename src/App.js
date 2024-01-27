@@ -15,6 +15,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Design from "./components/Design";
 
 function App() {
 const[loading,setLoading]=useState(false);
@@ -31,8 +32,9 @@ useEffect(()=>{
       <HashLoader color={"#1af4de"} loading={loading} size={150} style={{margin:'auto'}} />
  :
 <Router>
-    <Topbar />
+    
       <Header />
+      <Design/>
     <div >
     <Switch>
     <Route path="/Home">
@@ -62,3 +64,29 @@ useEffect(()=>{
 }
 
 export default App;
+
+// import React from 'react';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import Header from '../src/components/Header/Header';
+// import Home from '../src/components/Home';
+// import About from '../src/components/About';
+// import Event from '../src/components/Event';
+// import Team from '../src/components/Team';
+// import Contact from '../src/components/Contact';
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <Header />
+//       <Switch>
+//         <Route path="/Home" component={Home} />
+//         <Route path="/About" component={About} />
+//         <Route path="/Event" component={Event} />
+//         <Route path="/Team" component={Team} />
+//         <Route path="/Contact" component={Contact} />
+//       </Switch>
+//     </Router>
+//   );
+// };
+
+// export default App;

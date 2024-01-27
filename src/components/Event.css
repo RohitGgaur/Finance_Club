@@ -1,7 +1,69 @@
-.text-center h2{
-    color:white;
+
+
+.heading{
+    color: white; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+   text-align: center;
+    text-shadow: 0px 3px 0px #b2a98f,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 24px 30px rgba(0,0,0,0.1);
+    
 }
-.img1{
-    width: 25%;
-    height: 25%;
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 350px; /* Should be removed. Only for demonstration */
+    /* border:2px solid black; */
+   margin-left: 160px;
+   border-radius: 19px;
+   background-color: blanchedalmond;
+   box-shadow: 10px 10px 25px  black;
+   transition: all .3s ease-in-out;
+  
+  }
+  .column:hover{
+    transform: scale(1.1);
+  }
+  .column1{
+    transition: all .3s ease-in-out;
+  }
+  .column3{
+    transition: all .3s ease-in-out;
+  }
+
+  .column1:hover{
+    transform: scale(1.1);
+  }
+  .column3:hover{
+    transform: scale(1.1);
+  }
+  
+  .back-to-pavallion{
+   
+    color:rgb(238, 225, 227);
+    text-shadow: 0px 3px 0px rgb(76, 187, 119),
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 24px 30px rgba(0,0,0,0.1);
+  }
+   .column1{
+    width:50vh;
+margin: 10px;
+
+  }
+.column2{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
+.column4{
+  color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+ 
+
+  
