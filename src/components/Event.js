@@ -14,7 +14,7 @@ import "./Event.css";
 
 const Event = () => {
   return (
-    <div className="background" style={{ backgroundColor: "#002723" }}>
+    <div className="background" style={{ backgroundColor: "rgb(0, 0, 0)" }}>
       <div className="heading">
         <h2>FEST- Arthavya</h2>
       </div>
