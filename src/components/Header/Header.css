@@ -38,13 +38,13 @@ margin-left: 18%;
   font-style: bold;
   
   }
-  .nav-link{
+   .nav-link{
     color: white;
   }
   .nav-link:hover{
     color: green;
     text-decoration: underline;
-  }
+  } 
   .logclass{
     color: aqua;
     display: flex;
@@ -55,5 +55,12 @@ margin-left: 18%;
     font-style: normal;
   }
 
-  
-  
+
+.active_name{
+  color:white;
+  background-color:white;
+}
+@media screen and (min-width: 880px) {
+ 
+}
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'; 
+import { NavLink } from "react-router-dom";
 // import HeaderImage from '../components/Header/img/home1.jpeg'; 
 import img1 from "../components/Header/img/img6.png"
 import img2 from "../components/Header/img/bitcoin.jpeg"
@@ -8,9 +9,7 @@ import img3 from "../components/Header/img/blackBg1.png"
 const Home = () => {
   return (
     <>
-      <div className='box3' style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundColor: "black"
-    
-    }}>
+      <div className='box3' style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundColor: "black"}}>
 
         {/* <marquee className="x" style={{ color: 'green' }}>
           The main objective of our Society is to improve financial skills
@@ -28,15 +27,22 @@ const Home = () => {
           <br />
           </div>
           <div className="icons" style={{ marginTop: "10px", }}>
-            <i className="bi bi-instagram" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
-            <i className="bi bi-facebook" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
-            <i className="bi bi-linkedin" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
+          <a href="https://www.instagram.com/financeclubmmmut/" target="_blank" rel="noopener noreferrer">
+  <i className="bi bi-instagram" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
+</a>
+
+<a href="https://www.facebook.com/financeclubmmmut" target="_blank" rel="noopener noreferrer">
+  <i className="bi bi-facebook" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
+</a>
+
+            <a href="https://www.linkedin.com/company/financeclubmmmut/" target="_blank" rel="noopener noreferrer">
+  <i className="bi bi-linkedin" style={{ marginRight: "20px", fontSize: "30px", display: "inline-block", color: "white" }}></i>
+</a>
+
           </div>
-          <button
-            className='readmore'
-          >
-            Read More
-          </button>
+          <button className='readmore'>
+  <NavLink to="/About">Read More</NavLink>
+</button>
         </div>
       </div>
       <div className="mainbox ">
