@@ -14,31 +14,40 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Routes
 } from "react-router-dom";
 import Design from "./components/Design";
 
 function App() {
-const[loading,setLoading]=useState(false);
-useEffect(()=>{
-  setLoading(true);
-  setTimeout(()=>{
-    setLoading(false);
-  },2000)
-},[])
+// const[loading,setLoading]=useState(false);
+// useEffect(()=>{
+//   setLoading(true);
+//   setTimeout(()=>{
+//     setLoading(false);
+//   },2000)
+// },[])
   return (
     <>
     {
-      loading ?
-      <HashLoader color={"#1af4de"} loading={loading} size={150} style={{margin:'auto'}} />
- :
-<Router>
-    
+//       loading ?
+//       <HashLoader color={"#1af4de"} loading={loading} size={150} style={{margin:'auto'}} />
+//  :
+    <Router>
       <Header />
       <Design/>
     <div >
-    <Switch>
-    <Route path="/Home">
-            <Home/>
+    {/* <Switch>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Event" element={<Event />} />
+          <Route path="/Team" element={<Team />} />
+          <Route path="/Contact" element={<Contact />} />
+      </Switch> */}
+
+
+<Switch>
+          <Route path="/Home">
+            <Home />
           </Route>
           <Route path="/About">
             <About />
@@ -52,7 +61,12 @@ useEffect(()=>{
           <Route path="/Contact">
             <Contact />
           </Route>
+          <Route path="/">
+            {/* You can define a default route or a not found page here */}
+            <Home />
+          </Route>
         </Switch>
+
     </div>
     {/* <Footer/> */}
     </Router>
