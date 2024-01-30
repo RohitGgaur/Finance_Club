@@ -9,7 +9,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const Header = () => {
   return (
     <>
-<nav className="navbar navbar-expand-lg bg-body-tertiary" style={{ position: 'relative', width: '100%', top: '0', zIndex: '10',margin:"0px",padding:"0px",backgroundAttachment: 'scroll' }}>
+<nav className="navbar navbar-expand-lg bg-body-white" style={{ position: 'relative', width: '100%', top: '0', zIndex: '10',margin:"0px",padding:"0px",backgroundAttachment: 'scroll' }}>
   <div className="container-fluid"style={{backgroundColor:"black"}}>
     <Link className="navbar-brand mx-3" to="#">
     <div className="logclass">
