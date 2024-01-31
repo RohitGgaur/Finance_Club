@@ -30,17 +30,14 @@ const Contact = () => {
         </div>
         
         <div class="textarea-field">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <textarea name="" id="" cols="20" rows="7" placeholder="Your Message" required></textarea>
             <span class="focus"></span>
         </div>
         <div class="btn-box">
             <button type="submit"class="btn">Submit</button>
         </div>
     </form>
-    <div class="detail">
-        <div class="contact-no"><i class='bx bxs-phone-call'>7906626698</i></div>
-        <div class="email"><i class='bx bx-envelope'> financeclubmmmut@gmail.com</i></div>
-    </div>
+   
   </section>
     </>
   )

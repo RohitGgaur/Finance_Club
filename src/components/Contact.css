@@ -2,6 +2,9 @@
     min-height: auto;
     padding: 7rem;
 }
+.text-center{
+color:white;
+}
 .contact form{
     max-width: 70rem;
     margin: 0 auto;
@@ -36,7 +39,7 @@
 
 .contact form .textarea-field{
     position: relative;
-    margin: .8rem 0 2.7rem;
+    margin: .4rem 0 2.7rem;
     display: flex;
    
 }
@@ -46,18 +49,25 @@
 }
 .contact form .btn-box.btns.btn{
     cursor: pointer;
+    border: 2px solid white;
 }
 .enq{
     font-size: 3.5rem;
 
 }
-.detail{
-    font-size: 2.6rem;
-    margin-top: 7rem;
-    display: inline-block;
-}
+
 .contact-no{
     padding-bottom: 2rem;
 }
+.btn{
+    border: 2px solid white;
+    color: white;
+    width:19%;
+}
+@media (max-width:460) {
+    .input-box{
+        display: table-column;
+    }
 
 
+}

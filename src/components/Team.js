@@ -99,12 +99,7 @@ const Team = () => {
                 <div class="container1 py-5">
                     <h1 class="text-center " style={{color:"white"}}>Teams Page</h1>
                     <div class="section-title-divider mb-4"></div>
-                    <div class="col mb-4">
-                        <div class="col-lg-4 col-sm-6"><a href=" " class="showSingle session" target="1">Alumnis</a></div>
-                        <div class="col-lg-4 col-sm-6"><a href=" " class="showSingle session" target="div2">Final Year</a></div>
-                        <div class="col-lg-4 col-sm-6"><a href=" " class="showSingle session" target="3">Third Year</a></div>
-                        <div class="col-lg-4 col-sm-6"><a href=" " class="showSingle session" target="4">Second Year</a></div>
-                    </div>
+                   
                     <div id="div1" class="targetDiv my-5"
                         style={{ "background": "rgb(0, 0, 0)"  }}>
 
