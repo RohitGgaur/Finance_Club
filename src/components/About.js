@@ -42,9 +42,10 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className='vox'><p>     </p></div>
       
+    <Footer className="footer " />
     </div>
-    <Footer className="footer mt-5" />
     </>
   );
 };

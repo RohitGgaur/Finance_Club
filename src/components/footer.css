@@ -1,5 +1,9 @@
 
-  
+  .mainfooter
+  {
+    background: #000;
+    color: #fff;
+  }
   #logo1 {
     height: 80.156px;
     width: 80px;
@@ -30,12 +34,7 @@
   .reserve{
     text-align: center;
   }
-   /* .div2{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  } */
+
   #leftbox {
     float: left;
     width: 25%;
