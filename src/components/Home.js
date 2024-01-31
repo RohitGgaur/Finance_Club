@@ -41,7 +41,7 @@ const Home = () => {
 
           </div>
           <button className='readmore'>
-  <NavLink to="/About">Read More</NavLink>
+  Read More
 </button>
         </div>
       </div>

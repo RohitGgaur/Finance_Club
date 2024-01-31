@@ -20,36 +20,36 @@ const Header = () => {
      
       
       </Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <NavLink 
-          activeClassName ="active_name"
-          className="nav-link" to="/Home">Home</NavLink>
+          activeClassName = "active-name"
+          className="nav-link hey"       to="/Home"><p className="xy">Home</p></NavLink>
         </li>
         <li className="nav-item">
 
           <NavLink 
-          activeClassName ="active_name"
-          className="nav-link" to="/About">About</NavLink>
+          activeClassName = "active-name"
+          className="nav-link hey"       to="/About"><p className="xy">About</p></NavLink>
         </li>
         <li className="nav-item">
           <NavLink 
-          activeClassName ="active_name"
-          className="nav-link" to="/Event">Event</NavLink>
+          activeClassName = "active-name"
+          className="nav-link hey "       to="/Event"><p className="xy">Event</p></NavLink>
         </li>
         <li className="nav-item">
           <NavLink
-          activeClassName ="active_name"
-           className="nav-link" to="/Team">Team</NavLink>
+          activeClassName = "active-name"
+           className="nav-link hey"       to="/Team"><p className="xy">Team</p></NavLink>
         </li>
         <li className="nav-item">
           <NavLink
-          activeClassName ="active_name"
-           className="nav-link" to="/Contact">Contact</NavLink>
+          activeClassName = "active-name"
+           className="nav-link hey"       to="/Contact"><p className="xy">Contact</p></NavLink>
         </li>
         
       </ul>
