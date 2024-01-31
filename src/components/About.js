@@ -7,20 +7,45 @@ const About = () => {
     <>
     <div className="backg">
       <div className="About">
-        <div className="row ">
-          <div className="column">
-            <h2>Our Vision</h2>
-            <p>To be a premier hub for financial knowledge, the Finance Club envisions cultivating a dynamic community dedicated to excellence in finance. Focused on education, ethics, and real-world experiences, our goal is to inspire the next generation of finance leaders. Through collaborative initiatives, we aim to empower individuals with the skills and insights necessary for success in the ever-evolving financial landscape</p>
-          </div>
-          <div className="column">
+      <div class="Row ">
+          <div class="column-event">
             <h2>MegaBucks</h2>
-            <p>The Finance Club of MMMUT provides you with the platform to show trading skills and strategy in the stock market without the risk of losing money. In this, we do live trading with the help of virtual money stocked in the trading account. Participants use their knowledge, skill, and strategy to maximize their profit. MEGABUCKS Creating wealth through capital appreciation Protecting your earnings from market volatility Improving the proficiency of your investment portfolio Maximizing returns on investments (ROI) Optimizing the risk.</p>
+            <p>
+              <b>
+                The Finance Club of MMMUT provides you with the platform to show
+                trading skills and strategy in the stock market without the risk
+                of losing money. In this, we do live trading with help of
+                virtual money stocked in the trading account. Participants use
+                their knowledge, skill, and strategy to maximize their profit.
+                MEGABUCKS Creating wealth through capital appreciation
+                Protecting your earnings from market volatility Improving the
+                proficiency of your investment portfolio Maximizing returns on
+                investments (ROI) Optimizing the risk.
+              </b>
+            </p>
+          </div>
+          <div class="column-event">
+            <h2>Fiscal Short</h2>
+            <p>
+              <b>
+                Embark on a creative journey with The Finance Club Photo
+                Contest! This contest invites you to presents your financial
+                prowess through captivating photos. Using the provided Google
+                Form, showcase your creativity by uploading a finance-themed
+                photo and stay tuned for updates on our Instagram page
+                '@arthavya.' The winner will be determined by the highest number
+                of likes on their photo, so rally your supporters for a chance
+                to clinch the title.Don't miss this opportunity to blend your
+                passion for finance with your creative flair.
+              </b>
+            </p>
           </div>
         </div>
       </div>
+      <div className='vox'><p>     </p></div>
       
+    <Footer className="footer " />
     </div>
-    <Footer className="footer mt-5" />
     </>
   );
 };
